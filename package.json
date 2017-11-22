@@ -1,0 +1,31 @@
+{
+  "name": "react-redux-examples",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "test",
+    "start": "webpack-dev-server --port 8000 --progress --inline --hot --devtool eval-source-map"
+  },
+  "repository": {
+    "type": "git",
+    "url": "react-redux-examples"
+  },
+  "keywords": [
+    "react;",
+    "redux;"
+  ],
+  "author": "JellyLu",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^16.1.1",
+    "react-dom": "^16.1.1",
+    "react-redux": "^5.0.6",
+    "redux": "^3.7.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "webpack": "^3.8.1",
+    "webpack-dev-server": "^2.9.4"
+  }
+}
